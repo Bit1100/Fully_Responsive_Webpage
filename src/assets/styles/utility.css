@@ -136,6 +136,10 @@ body {
   flex: 2;
 }
 
+.rotate {
+  transform: rotate(180deg);
+}
+
 .btn {
   outline: none;
   border: none;
@@ -146,7 +150,6 @@ body {
   font-weight: bold;
   border: 2px solid var(--secondary);
   transition: var(--smooth);
-  cursor: pointer;
 }
 
 .btn-primary {
@@ -189,14 +192,19 @@ body {
   bottom: 0;
   width: 80%;
   height: 0.4rem;
-  background: linear-gradient(60deg, var(--tetra), var(--primary-dark));
-  color: var(--primary);
+  background: linear-gradient(60deg, var(--secondary), var(--primary-dark));
+  color: var(--secondary);
 }
 
 .section-heading:hover:after {
   width: 100%;
 }
 
-.mx-auto {
-  margin: 0 auto;
+/* Animation */
+
+@keyframes scale {
+  50% {
+    transform-origin: center;
+    transform: translateX(4rem) rotate(10deg) scale(0.5);
+  }
 }
