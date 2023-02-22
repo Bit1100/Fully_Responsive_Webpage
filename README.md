@@ -1,6 +1,6 @@
 # Walk through of the Project
 
-This is a React Project called as React-Pro-LandingPage which typically deals with the responsive landing page for the fruits business. The project contains various sections such as About, Deals, Blogs, Contact, etc. The other details of the project are as follows:
+This is a fully responsive and functional Landing Page which deals with the free seminar for the education training purposes.
 
 ## Code Splitting
 
@@ -9,10 +9,6 @@ Code Splitting is done at Routes
 ## React Component Type
 
 Functional Component with various hooks like useState(), useEffect(), useRef() and useContext() along with some custom hooks such as useIntersectionObserver().
-
-## Data Fetching
-
-Easily fetched data using own github hosted REST API.
 
 ## State Management
 
@@ -32,8 +28,6 @@ Vanilla CSS
 
 4. Dynamically rendered all the images, which implies images are optimised by webpack.
 
-5. Intersection Observer has been introduced.
+5. Used .env.development and .env.production files for the Code Reusablility and environment determination.
 
-6. DOM Attributes such as children, firstElementChild, etc. have been injected while dealing with Intersection Observer.
-
-7. Used .env.development and .env.production files for the Code Reusablility and environment determination.
+6. Handle the 404 error when refreshing page on gh-pages
