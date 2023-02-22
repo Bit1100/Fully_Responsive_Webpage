@@ -2,7 +2,7 @@
   "name": "landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bit1100.github.io/React-Professional-Landing-Page",
+  "homepage": "https://bit1100.github.io/Fully_Responsive_Webpage",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

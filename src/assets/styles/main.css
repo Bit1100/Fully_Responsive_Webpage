@@ -279,6 +279,8 @@ nav .navigation li a:hover {
 
 .hero .left .intro {
   font-size: 1.5rem;
+  max-width: 275px;
+  min-width: 250px;
 }
 
 .hero .left div {
@@ -297,6 +299,7 @@ nav .navigation li a:hover {
 
 .hero .right {
   width: 400px;
+  min-width: 250px;
   margin: 2rem;
 }
 

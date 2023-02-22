@@ -18,10 +18,9 @@ const Home = () => {
             <span>FREE SEMINAR</span>
           </h1>
           <p className="intro">
-            Come to one of our free seminars, where
-            <br /> we provide top notch teaching from expert <br /> instructors
-            and innovative lessons to update
-            <br /> your knowledge for free.
+            Come to one of our free seminars, where we provide top notch
+            teaching from expert instructors and innovative lessons to update
+            your knowledge for free.
           </p>
           <div className="flex items-center">
             <button onClick={goToEvents} className="btn btn-primary">
